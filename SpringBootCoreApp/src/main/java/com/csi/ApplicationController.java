@@ -19,4 +19,10 @@ public class ApplicationController {
     {
         return "SOFTWARE ENGINEERING";
     }
+    @GetMapping("/address")
+
+    public String address()
+    {
+        return "INDIA";
+    }
 }
